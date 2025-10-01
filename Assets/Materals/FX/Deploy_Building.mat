@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Deploy_Building
-  m_Shader: {fileID: 4800000, guid: 0c994253c91f15c48a6b74f761e3907c, type: 3}
+  m_Shader: {fileID: 4800000, guid: 34e6c98863abf8642b2b97d4aa78966b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -33,7 +33,7 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties: _SubTex
+  m_LockedProperties: _SubTex _Surface
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -134,7 +134,7 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _SrcBlendAlpha: 1
     - _Surface: 1
     - _USpeed: 0.05
