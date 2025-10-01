@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 6860e82d4ff38514cac3f4660faaf631
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frame_Rare
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1803
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7464bc9865e96ff4584ca1ea515e2434
+      internalID: 1195113449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Epic
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1803
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6809f9364e1aa024589a7222c1b0fccf
+      internalID: -1397034009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Common
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1658
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b33ca2f99933c4fb936d70d95e33d8
+      internalID: 2021022035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frame_Elite
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 831
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267073a5f6527164a95a1ff16172de33
+      internalID: 444024217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e7a5122b5f84de845a4cb737ed9f2e40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Frame_Atlas_0: 1805457290
+      Frame_Atlas_1: 1785169291
+      Frame_Atlas_11: 1154095417
+      Frame_Atlas_12: 1573993057
+      Frame_Atlas_14: -232316563
+      Frame_Atlas_15: 610900906
+      Frame_Atlas_16: -1258263111
+      Frame_Atlas_18: -1704566386
+      Frame_Atlas_19: 568479181
+      Frame_Atlas_2: 485769380
+      Frame_Atlas_20: -2016971425
+      Frame_Atlas_21: 1059651919
+      Frame_Atlas_22: 2010263883
+      Frame_Atlas_23: -693592812
+      Frame_Atlas_24: 1002441547
+      Frame_Atlas_25: -1769517128
+      Frame_Atlas_26: 1541335803
+      Frame_Atlas_27: -145929080
+      Frame_Atlas_28: 1323923541
+      Frame_Atlas_29: 1100348081
+      Frame_Atlas_3: -387940521
+      Frame_Atlas_30: -268013761
+      Frame_Atlas_31: -1982079351
+      Frame_Atlas_32: 1030034060
+      Frame_Atlas_33: -578156215
+      Frame_Atlas_34: -631417406
+      Frame_Atlas_35: -1739618406
+      Frame_Atlas_36: -2106939182
+      Frame_Atlas_37: 359561200
+      Frame_Atlas_38: -330211750
+      Frame_Atlas_4: 187011779
+      Frame_Atlas_40: -776891813
+      Frame_Atlas_41: 36205175
+      Frame_Atlas_42: 1203204612
+      Frame_Atlas_43: 1054885389
+      Frame_Atlas_44: -1606985428
+      Frame_Atlas_45: -1798083302
+      Frame_Atlas_5: 581813847
+      Frame_Atlas_6: 1397038794
+      Frame_Atlas_7: 752949831
+      Frame_Atlas_8: 2114200420
+      Frame_Atlas_9: -1896013096
+      Frame_Common: 2021022035
+      Frame_Elite: 444024217
+      Frame_Epic: -1397034009
+      Frame_Rare: 1195113449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

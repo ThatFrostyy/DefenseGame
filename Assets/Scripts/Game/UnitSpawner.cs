@@ -3,22 +3,13 @@ using System.Collections.Generic;
 
 public class UnitSpawner : MonoBehaviour
 {
-    [Header("Unit Prefab")]
-    public GameObject unitPrefab;
-
-    [Header("Animation Clips")]
-    public string deployAnimationName = "";
-    public string idleAnimationName = "";
-
-    [Header("Effects & Sound")]
-    public ParticleSystem deployEffect;
-    public AudioClip[] deploySounds;
-
     [Header("Deployment Settings")]
     [Tooltip("Alpha value to use for preview (0 = invisible, 1 = solid).")]
     [Range(0f, 1f)] public float previewAlpha = 0.5f;
     public LayerMask deploymentLayerMask;
     public LayerMask obstacleMask;
+
+    private UnitData currentUnitToPlace;
 
     private bool isPreviewing = false;
     private bool canPlaceHere = false;
@@ -26,7 +17,6 @@ public class UnitSpawner : MonoBehaviour
 
     private Camera mainCamera;
 
-    // Storage for cloned preview materials
     private readonly List<Material> clonedPreviewMats = new();
 
     void Start()
@@ -36,14 +26,6 @@ public class UnitSpawner : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            isPreviewing = !isPreviewing;
-
-            if (isPreviewing) StartPreview();
-            else EndPreview();
-        }
-
         if (isPreviewing)
         {
             UpdatePreviewPosition();
@@ -52,45 +34,59 @@ public class UnitSpawner : MonoBehaviour
             {
                 DeployUnit();
             }
+
+            else if (Input.GetMouseButtonDown(1))
+            {
+                CancelPlacement();
+            }
         }
+    }
+
+    /// <summary>
+    /// Called by UI Manager when player selects a unit to deploy.
+    /// </summary>
+    public void BeginUnitPlacement(UnitData unitData)
+    {
+        if (isPreviewing)
+        {
+            CancelPlacement();
+        }
+
+        if (unitData == null || unitData.unitPrefab == null) return;
+
+        currentUnitToPlace = unitData;
+        isPreviewing = true;
+        StartPreview();
+    }
+
+    public void CancelPlacement()
+    {
+        EndPreview();
     }
 
     private void StartPreview()
     {
-        if (unitPrefab == null)
-        {
-            isPreviewing = false;
-            return;
-        }
+        previewInstance = Instantiate(currentUnitToPlace.unitPrefab);
 
-        previewInstance = Instantiate(unitPrefab);
-
-        // Disable legacy animation so it doesn’t start playing
         if (previewInstance.GetComponent<Animation>())
         {
             previewInstance.GetComponent<Animation>().enabled = false;
         }
 
-        // Clone each material, set it to transparent, and reduce alpha
         Renderer[] renderers = previewInstance.GetComponentsInChildren<Renderer>();
         foreach (Renderer rend in renderers)
         {
-            Material[] mats = rend.materials; // automatically instantiates
+            Material[] mats = rend.materials;
             for (int i = 0; i < mats.Length; i++)
             {
                 Material mat = mats[i];
-
-                // Switch to transparent rendering
-                mat.SetFloat("_Surface", 1); // 0 = Opaque, 1 = Transparent in URP Lit
+                mat.SetFloat("_Surface", 1);
                 mat.SetOverrideTag("RenderType", "Transparent");
                 mat.renderQueue = (int)UnityEngine.Rendering.RenderQueue.Transparent;
-
-                // Enable blending
                 mat.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
                 mat.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
                 mat.SetInt("_ZWrite", 0);
 
-                // Adjust alpha
                 if (mat.HasProperty("_BaseColor"))
                 {
                     Color col = mat.GetColor("_BaseColor");
@@ -110,7 +106,6 @@ public class UnitSpawner : MonoBehaviour
             rend.materials = mats;
         }
 
-        // Disable colliders on preview
         foreach (Collider col in previewInstance.GetComponentsInChildren<Collider>())
         {
             col.enabled = false;
@@ -125,7 +120,6 @@ public class UnitSpawner : MonoBehaviour
         }
         previewInstance = null;
 
-        // Cleanup any cloned mats to avoid leaks
         foreach (var mat in clonedPreviewMats)
         {
             if (mat != null) Destroy(mat);
@@ -133,6 +127,7 @@ public class UnitSpawner : MonoBehaviour
         clonedPreviewMats.Clear();
 
         isPreviewing = false;
+        currentUnitToPlace = null;
     }
 
     private void UpdatePreviewPosition()
@@ -140,29 +135,13 @@ public class UnitSpawner : MonoBehaviour
         if (previewInstance == null) return;
 
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-
         if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, deploymentLayerMask))
         {
             previewInstance.SetActive(true);
             previewInstance.transform.position = hit.point;
 
-            Collider[] overlaps = Physics.OverlapBox(
-                hit.point,
-                new Vector3(1, 1, 1) * 0.5f,
-                Quaternion.identity,
-                obstacleMask
-            );
-
-            if (overlaps.Length > 0)
-            {
-                canPlaceHere = false;
-                previewInstance.SetActive(false);
-            }
-            else
-            {
-                canPlaceHere = true;
-
-            }
+            Collider[] overlaps = Physics.OverlapBox(hit.point, new Vector3(1, 1, 1) * 0.5f, Quaternion.identity, obstacleMask);
+            canPlaceHere = overlaps.Length == 0;
         }
         else
         {
@@ -173,41 +152,36 @@ public class UnitSpawner : MonoBehaviour
 
     private void DeployUnit()
     {
-        if (!canPlaceHere)
-        {
-            return;
-        }
+        if (!canPlaceHere) return;
 
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, deploymentLayerMask))
         {
             Vector3 deployPosition = hit.point;
-
-            GameObject newUnit = Instantiate(unitPrefab, deployPosition, Quaternion.identity);
+            GameObject newUnit = Instantiate(currentUnitToPlace.unitPrefab, deployPosition, Quaternion.identity);
 
             if (newUnit.TryGetComponent<Animation>(out var unitAnimation))
             {
-                if (!string.IsNullOrEmpty(deployAnimationName))
+                if (!string.IsNullOrEmpty(currentUnitToPlace.deployAnimationName))
                 {
-                    unitAnimation.Play(deployAnimationName);
+                    unitAnimation.Play(currentUnitToPlace.deployAnimationName);
                 }
-                if (!string.IsNullOrEmpty(idleAnimationName))
+                if (!string.IsNullOrEmpty(currentUnitToPlace.idleAnimationName))
                 {
-                    unitAnimation.PlayQueued(idleAnimationName, QueueMode.CompleteOthers);
+                    unitAnimation.PlayQueued(currentUnitToPlace.idleAnimationName, QueueMode.CompleteOthers);
                 }
             }
 
-            if (deployEffect != null)
+            if (currentUnitToPlace.deployEffect != null)
             {
-                Instantiate(deployEffect, deployPosition, Quaternion.identity);
+                Instantiate(currentUnitToPlace.deployEffect, deployPosition, Quaternion.identity);
             }
 
-            if (deploySounds != null && deploySounds.Length > 0)
+            if (currentUnitToPlace.deploySounds != null && currentUnitToPlace.deploySounds.Length > 0)
             {
-                foreach (AudioClip clip in deploySounds)
+                foreach (AudioClip clip in currentUnitToPlace.deploySounds)
                 {
-                    if (clip != null)
-                        AudioSource.PlayClipAtPoint(clip, deployPosition);
+                    if (clip != null) AudioSource.PlayClipAtPoint(clip, deployPosition);
                 }
             }
 
