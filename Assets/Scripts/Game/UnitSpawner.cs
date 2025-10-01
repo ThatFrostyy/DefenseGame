@@ -137,11 +137,12 @@ public class UnitSpawner : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, deploymentLayerMask))
         {
-            previewInstance.SetActive(true);
             previewInstance.transform.position = hit.point;
 
             Collider[] overlaps = Physics.OverlapBox(hit.point, new Vector3(1, 1, 1) * 0.5f, Quaternion.identity, obstacleMask);
             canPlaceHere = overlaps.Length == 0;
+
+            previewInstance.SetActive(canPlaceHere);
         }
         else
         {
