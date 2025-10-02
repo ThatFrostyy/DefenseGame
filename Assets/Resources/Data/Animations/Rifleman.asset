@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad37106c655d994ead6a70cae45cb5f, type: 3}
+  m_Name: Rifleman
+  m_EditorClassIdentifier: 
+  appear: {fileID: 7400000, guid: d292050b2b1390443a0262e5e0900fe8, type: 2}
+  idle: {fileID: 7400000, guid: 4cf0d73e01012a54eabdf4db8b95ef70, type: 2}
+  move:
+  - {fileID: 7400000, guid: bc1485d55b6afc347b5d2dac0e823c57, type: 2}
+  - {fileID: 7400000, guid: df54dd0f24e218641a8edaf033ec7c9b, type: 2}
+  - {fileID: 7400000, guid: 8e7f08384ac0d234d8c5561ba50247b3, type: 2}
+  rifleAttackIdle_Stand: {fileID: 7400000, guid: 0d103d80b02fa914eb46d9f339c4515f, type: 2}
+  rifleAttackIdle_Crouch: {fileID: 7400000, guid: a85eb365898f29d4293c736d07a96aaa, type: 2}
+  rifleShot_Stand: {fileID: 7400000, guid: b08f9d6258d5c144793d2f0df8c40094, type: 2}
+  rifleShot_Crouch: {fileID: 7400000, guid: 1bb8c73a74ed31143938d29b0ecd4188, type: 2}
+  moveAttack_Forward: {fileID: 7400000, guid: 99d4f4b35fc0c6944abe5afda30b425f, type: 2}
+  moveAttack_Backward: {fileID: 7400000, guid: 7e6d093277b7c7e4784ffcf6eea0cb31, type: 2}
+  moveAttack_Left: {fileID: 7400000, guid: fdc2dc4bb9a568744900aaa4cfa53d9c, type: 2}
+  moveAttack_Right: {fileID: 7400000, guid: be7354dccb3a8964f96bcec2fa2b7e67, type: 2}
+  deaths:
+  - {fileID: 7400000, guid: f8ac7549fe80a164aa7d32a3adde573c, type: 2}
+  - {fileID: 7400000, guid: 0cf3dfcd241cc3f4aa9f6fc002889d11, type: 2}
+  - {fileID: 7400000, guid: 3afa1ec32d2a7ba47a93d0c806f43b1c, type: 2}
+  - {fileID: 7400000, guid: 65b5abfff84a2454086907e39ca1f5e1, type: 2}
+  - {fileID: 7400000, guid: 2ea325f04c1e67142a2c25a44b96bfec, type: 2}
+  - {fileID: 7400000, guid: f62545497fee952459d470e6cf4e82cf, type: 2}
+  - {fileID: 7400000, guid: edfc151e539b20845a34584a897125f4, type: 2}
+  - {fileID: 7400000, guid: 4ef6cff817e94cc4b9bdfdb56c441c85, type: 2}
+  - {fileID: 7400000, guid: 59c8403b6e66ae7429716b1cca5d730a, type: 2}

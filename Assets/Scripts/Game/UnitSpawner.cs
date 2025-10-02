@@ -163,15 +163,16 @@ public class UnitSpawner : MonoBehaviour
 
             if (newUnit.TryGetComponent<Animation>(out var unitAnimation))
             {
-                if (!string.IsNullOrEmpty(currentUnitToPlace.deployAnimationName))
+                if (currentUnitToPlace.animationData.appear != null)
                 {
-                    unitAnimation.Play(currentUnitToPlace.deployAnimationName);
+                    unitAnimation.Play(currentUnitToPlace.animationData.appear.name); 
                 }
-                if (!string.IsNullOrEmpty(currentUnitToPlace.idleAnimationName))
+
+                if (currentUnitToPlace.animationData.idle != null)
                 {
-                    unitAnimation.PlayQueued(currentUnitToPlace.idleAnimationName, QueueMode.CompleteOthers);
+                    unitAnimation.PlayQueued(currentUnitToPlace.animationData.idle.name, QueueMode.CompleteOthers);
                 }
-            }
+            }        
 
             if (currentUnitToPlace.deployEffect != null)
             {

@@ -8,14 +8,13 @@ public class UnitData : ScriptableObject
 {
     [Header("Unit Information")]
     public string unitName;
+    public GameObject unitPrefab;
     public UnitType unitType;
     public UnitRarity rarity;
     public Sprite uiIcon;
 
-    [Header("Game Object & Animations")]
-    public GameObject unitPrefab;
-    public string deployAnimationName = "";
-    public string idleAnimationName = "";
+    [Header("Animation Data")]
+    public UnitAnimationData animationData;
 
     [Header("Effects & Sound")]
     public ParticleSystem deployEffect;

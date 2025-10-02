@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad37106c655d994ead6a70cae45cb5f, type: 3}
+  m_Name: Rifle_Barricade
+  m_EditorClassIdentifier: 
+  appear: {fileID: 7400000, guid: 431e9b90fde3bb0488d28d55038ef36e, type: 2}
+  idle: {fileID: 7400000, guid: 491bc1b60ab396d4d8c05a5ede129291, type: 2}
+  move: []
+  rifleAttackIdle_Stand: {fileID: 7400000, guid: e673841b5f1a5d949afc29a3ec5832c9, type: 2}
+  rifleAttackIdle_Crouch: {fileID: 0}
+  rifleShot_Stand: {fileID: 7400000, guid: 628585cd4c35cf942891362a07b2dc7a, type: 2}
+  rifleShot_Crouch: {fileID: 0}
+  moveAttack_Forward: {fileID: 0}
+  moveAttack_Backward: {fileID: 0}
+  moveAttack_Left: {fileID: 0}
+  moveAttack_Right: {fileID: 0}
+  deaths:
+  - {fileID: 7400000, guid: e850dc4a8ef7d944c87db4dd9e6d82ce, type: 2}
