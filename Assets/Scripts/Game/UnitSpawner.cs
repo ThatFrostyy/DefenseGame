@@ -42,9 +42,7 @@ public class UnitSpawner : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Called by UI Manager when player selects a unit to deploy.
-    /// </summary>
+    // Called by UI Manager when player selects a unit to deploy
     public void BeginUnitPlacement(UnitData unitData)
     {
         if (isPreviewing)
@@ -155,39 +153,41 @@ public class UnitSpawner : MonoBehaviour
     {
         if (!canPlaceHere) return;
 
-        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, deploymentLayerMask))
+        Vector3 deployPosition = previewInstance.transform.position;
+
+        GameObject newUnit = Instantiate(currentUnitToPlace.unitPrefab, deployPosition, Quaternion.identity);
+
+        if (newUnit.TryGetComponent<Unit>(out var unitComponent))
         {
-            Vector3 deployPosition = hit.point;
-            GameObject newUnit = Instantiate(currentUnitToPlace.unitPrefab, deployPosition, Quaternion.identity);
-
-            if (newUnit.TryGetComponent<Animation>(out var unitAnimation))
-            {
-                if (currentUnitToPlace.animationData.appear != null)
-                {
-                    unitAnimation.Play(currentUnitToPlace.animationData.appear.name); 
-                }
-
-                if (currentUnitToPlace.animationData.idle != null)
-                {
-                    unitAnimation.PlayQueued(currentUnitToPlace.animationData.idle.name, QueueMode.CompleteOthers);
-                }
-            }        
-
-            if (currentUnitToPlace.deployEffect != null)
-            {
-                Instantiate(currentUnitToPlace.deployEffect, deployPosition, Quaternion.identity);
-            }
-
-            if (currentUnitToPlace.deploySounds != null && currentUnitToPlace.deploySounds.Length > 0)
-            {
-                foreach (AudioClip clip in currentUnitToPlace.deploySounds)
-                {
-                    if (clip != null) AudioSource.PlayClipAtPoint(clip, deployPosition);
-                }
-            }
-
-            EndPreview();
+            unitComponent.Setup(currentUnitToPlace);
         }
+
+        if (newUnit.TryGetComponent<Animation>(out var unitAnimation))
+        {
+            if (currentUnitToPlace.animationData.appear != null)
+            {
+                unitAnimation.Play(currentUnitToPlace.animationData.appear.name);
+            }
+
+            if (currentUnitToPlace.animationData.idle != null)
+            {
+                unitAnimation.PlayQueued(currentUnitToPlace.animationData.idle.name, QueueMode.CompleteOthers);
+            }
+        }
+
+        if (currentUnitToPlace.deployEffect != null)
+        {
+            Instantiate(currentUnitToPlace.deployEffect, deployPosition, Quaternion.identity);
+        }
+
+        if (currentUnitToPlace.deploySounds != null && currentUnitToPlace.deploySounds.Length > 0)
+        {
+            foreach (AudioClip clip in currentUnitToPlace.deploySounds)
+            {
+                if (clip != null) AudioSource.PlayClipAtPoint(clip, deployPosition);
+            }
+        }
+
+        EndPreview();
     }
 }

@@ -1397,6 +1397,9 @@ GameObject:
   - component: {fileID: 4552113675141572}
   - component: {fileID: 111378950006733665}
   - component: {fileID: 2335986519259625227}
+  - component: {fileID: 4527146086997444692}
+  - component: {fileID: 7666511473966424979}
+  - component: {fileID: 8714852640133079407}
   m_Layer: 7
   m_Name: GER_Road_Barricade
   m_TagString: Unit
@@ -1466,6 +1469,45 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.3549685, y: 2.649402, z: 3.7662265}
   m_Center: {x: -0.06262374, y: 0.82470095, z: 0.0071691275}
+--- !u!114 &4527146086997444692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452339098826716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd14cd61ad7ac34fa2c6b39a15fba1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7666511473966424979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452339098826716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6159a8398be8b478a7d2b17653d45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8714852640133079407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452339098826716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89fc83b59d41012428463585b1c8926a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1459583138836164
 GameObject:
   m_ObjectHideFlags: 0

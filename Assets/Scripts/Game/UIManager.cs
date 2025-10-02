@@ -29,6 +29,7 @@ public class UIManager : MonoBehaviour
         CreateUnitButtons();
     }
 
+    // This will be changed to dragging instead of buttons
     void CreateUnitButtons()
     {
         foreach (var unitData in availableUnits)

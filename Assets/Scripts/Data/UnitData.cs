@@ -13,6 +13,15 @@ public class UnitData : ScriptableObject
     public UnitRarity rarity;
     public Sprite uiIcon;
 
+    [Header("Gameplay Stats")]
+    public int cost;
+    public float deployTime;
+    public int maxHealth;
+    public int damage;
+    public float attackRange;
+    public float attackRate; // Attacks per second
+    public float moveSpeed; // Note: 0 for a building
+
     [Header("Animation Data")]
     public UnitAnimationData animationData;
 
