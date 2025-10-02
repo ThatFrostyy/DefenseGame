@@ -30,12 +30,7 @@ public class UnitSpawner : MonoBehaviour
         {
             UpdatePreviewPosition();
 
-            if (Input.GetMouseButtonDown(0))
-            {
-                DeployUnit();
-            }
-
-            else if (Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(1))
             {
                 CancelPlacement();
             }
@@ -57,11 +52,66 @@ public class UnitSpawner : MonoBehaviour
         StartPreview();
     }
 
+    public void AttemptDeployment()
+    {
+        if (canPlaceHere)
+        {
+            DeployUnit();
+        }
+        else
+        {
+            CancelPlacement();
+        }
+    }
+
+    private void DeployUnit()
+    {
+        if (!canPlaceHere) return;
+
+        Vector3 deployPosition = previewInstance.transform.position;
+
+        GameObject newUnit = Instantiate(currentUnitToPlace.unitPrefab, deployPosition, Quaternion.identity);
+
+        if (newUnit.TryGetComponent<Unit>(out var unitComponent))
+        {
+            unitComponent.Setup(currentUnitToPlace);
+        }
+
+        if (newUnit.TryGetComponent<Animation>(out var unitAnimation))
+        {
+            if (currentUnitToPlace.animationData.appear != null)
+            {
+                unitAnimation.Play(currentUnitToPlace.animationData.appear.name);
+            }
+
+            if (currentUnitToPlace.animationData.idle != null)
+            {
+                unitAnimation.PlayQueued(currentUnitToPlace.animationData.idle.name, QueueMode.CompleteOthers);
+            }
+        }
+
+        if (currentUnitToPlace.deployEffect != null)
+        {
+            Instantiate(currentUnitToPlace.deployEffect, deployPosition, Quaternion.identity);
+        }
+
+        if (currentUnitToPlace.deploySounds != null && currentUnitToPlace.deploySounds.Length > 0)
+        {
+            foreach (AudioClip clip in currentUnitToPlace.deploySounds)
+            {
+                if (clip != null) AudioSource.PlayClipAtPoint(clip, deployPosition);
+            }
+        }
+
+        EndPreview();
+    }
+
     public void CancelPlacement()
     {
         EndPreview();
     }
 
+    #region Preview
     private void StartPreview()
     {
         previewInstance = Instantiate(currentUnitToPlace.unitPrefab);
@@ -148,46 +198,5 @@ public class UnitSpawner : MonoBehaviour
             canPlaceHere = false;
         }
     }
-
-    private void DeployUnit()
-    {
-        if (!canPlaceHere) return;
-
-        Vector3 deployPosition = previewInstance.transform.position;
-
-        GameObject newUnit = Instantiate(currentUnitToPlace.unitPrefab, deployPosition, Quaternion.identity);
-
-        if (newUnit.TryGetComponent<Unit>(out var unitComponent))
-        {
-            unitComponent.Setup(currentUnitToPlace);
-        }
-
-        if (newUnit.TryGetComponent<Animation>(out var unitAnimation))
-        {
-            if (currentUnitToPlace.animationData.appear != null)
-            {
-                unitAnimation.Play(currentUnitToPlace.animationData.appear.name);
-            }
-
-            if (currentUnitToPlace.animationData.idle != null)
-            {
-                unitAnimation.PlayQueued(currentUnitToPlace.animationData.idle.name, QueueMode.CompleteOthers);
-            }
-        }
-
-        if (currentUnitToPlace.deployEffect != null)
-        {
-            Instantiate(currentUnitToPlace.deployEffect, deployPosition, Quaternion.identity);
-        }
-
-        if (currentUnitToPlace.deploySounds != null && currentUnitToPlace.deploySounds.Length > 0)
-        {
-            foreach (AudioClip clip in currentUnitToPlace.deploySounds)
-            {
-                if (clip != null) AudioSource.PlayClipAtPoint(clip, deployPosition);
-            }
-        }
-
-        EndPreview();
-    }
+    #endregion Preview
 }

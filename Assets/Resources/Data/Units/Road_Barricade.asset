@@ -17,6 +17,13 @@ MonoBehaviour:
   unitType: 3
   rarity: 0
   uiIcon: {fileID: 274410813, guid: 6aee62928d47b7d45885a93646d3fb20, type: 3}
+  cost: 2
+  deployTime: 1
+  maxHealth: 100
+  damage: 13
+  attackRange: 5
+  attackRate: 1
+  moveSpeed: 0
   animationData: {fileID: 11400000, guid: ca6386af03209ed429af17937a40b662, type: 2}
   deployEffect: {fileID: 198074956566463087, guid: 6986903e6b8f4184fa380455d74ac3de, type: 3}
   deploySounds:

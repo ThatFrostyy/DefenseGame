@@ -26,27 +26,25 @@ public class UIManager : MonoBehaviour
             return;
         }
 
-        CreateUnitButtons();
+        CreateUnitCards();
     }
 
-    // This will be changed to dragging instead of buttons
-    void CreateUnitButtons()
+    void CreateUnitCards()
     {
         foreach (var unitData in availableUnits)
         {
             GameObject buttonGO = Instantiate(unitButtonPrefab, unitSelectionPanel);
 
-            // Get the UnitCardUI component and set it up
             if (buttonGO.TryGetComponent<UnitCardUI>(out var card))
             {
                 card.Setup(unitData, rarityFrameData);
             }
 
-            if (buttonGO.TryGetComponent<Button>(out var button))
+            if (buttonGO.TryGetComponent<DragHandler>(out var handler))
             {
-                button.onClick.AddListener(() => {
-                    unitSpawner.BeginUnitPlacement(unitData);
-                });
+                handler.unitData = unitData;
+                handler.unitSpawner = unitSpawner;
+                handler.panelRectTransform = unitSelectionPanel as RectTransform; 
             }
         }
     }
