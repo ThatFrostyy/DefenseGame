@@ -781,6 +781,14 @@ PrefabInstance:
       propertyPath: unitSelectionPanel
       value: 
       objectReference: {fileID: 453868456}
+    - target: {fileID: 7819297039527425320, guid: ccd64f3090bee14449c35e68840d242c, type: 3}
+      propertyPath: availableUnits.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7819297039527425320, guid: ccd64f3090bee14449c35e68840d242c, type: 3}
+      propertyPath: 'availableUnits.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 0e11857be8684384995a6f230847480c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

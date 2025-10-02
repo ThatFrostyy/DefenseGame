@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d56659cb91d0e034ca997dbf018a6257, type: 3}
   m_Name: Conscripts
   m_EditorClassIdentifier: 
-  unitName: Road Barricade
-  unitPrefab: {fileID: 1452339098826716, guid: 383cf5d9d7613554a803870a495edb5f, type: 3}
-  unitType: 3
+  unitName: Conscripts
+  unitPrefab: {fileID: 1596522018867113, guid: defc223c1fe1ceb41847609b3de98e92, type: 3}
+  unitType: 0
   rarity: 0
-  uiIcon: {fileID: 274410813, guid: 6aee62928d47b7d45885a93646d3fb20, type: 3}
-  animationData: {fileID: 11400000, guid: ca6386af03209ed429af17937a40b662, type: 2}
+  uiIcon: {fileID: 1836289110, guid: 6aee62928d47b7d45885a93646d3fb20, type: 3}
+  animationData: {fileID: 11400000, guid: d0f866720d3e38b46b0ea1d826c765df, type: 2}
   deployEffect: {fileID: 198074956566463087, guid: 6986903e6b8f4184fa380455d74ac3de, type: 3}
   deploySounds:
-  - {fileID: 8300000, guid: 6cb50fbadf7be2844920a11594465f58, type: 3}
-  - {fileID: 8300000, guid: 00bc78403bf6fb54ea5083e8e636527a, type: 3}
+  - {fileID: 8300000, guid: 1e286ada0df031b4aaeedcc3cc7ca95a, type: 3}
