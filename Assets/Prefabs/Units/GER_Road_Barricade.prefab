@@ -268,6 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4223051046924234}
   - component: {fileID: 137713333811440980}
+  - component: {fileID: 3236632886547765262}
   m_Layer: 7
   m_Name: GO_Inf_GunGroup001
   m_TagString: Untagged
@@ -374,6 +375,28 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.029870987, y: -0.020651609, z: -0.75105584}
     m_Extent: {x: 1.0853348, y: 0.28406146, z: 1.5717276}
   m_DirtyAABB: 0
+--- !u!64 &3236632886547765262
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091002189964735}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 83a14091e319b7141b97c9ec8db7b9fb, type: 2}
 --- !u!1 &1095169276987775
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4143518496830287}
   - component: {fileID: 137405628921300387}
+  - component: {fileID: 6424004166128525049}
   m_Layer: 7
   m_Name: GO_Inf_GunGroup
   m_TagString: Untagged
@@ -843,6 +867,28 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.029870987, y: -0.020651639, z: -0.75105584}
     m_Extent: {x: 1.0853348, y: 0.2840615, z: 1.5717279}
   m_DirtyAABB: 0
+--- !u!64 &6424004166128525049
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213860709743819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 72ecc14ccba167240a212e357b0830f8, type: 2}
 --- !u!1 &1226469765295705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,13 +1442,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4552113675141572}
   - component: {fileID: 111378950006733665}
-  - component: {fileID: 2335986519259625227}
   - component: {fileID: 4527146086997444692}
   - component: {fileID: 7666511473966424979}
-  - component: {fileID: 8714852640133079407}
   m_Layer: 7
   m_Name: GER_Road_Barricade
-  m_TagString: Unit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1448,27 +1492,6 @@ Animation:
   m_AnimatePhysics: 0
   m_UpdateMode: 0
   m_CullingType: 1
---- !u!65 &2335986519259625227
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452339098826716}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.3549685, y: 2.649402, z: 3.7662265}
-  m_Center: {x: -0.06262374, y: 0.82470095, z: 0.0071691275}
 --- !u!114 &4527146086997444692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,18 +1519,6 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8714852640133079407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452339098826716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89fc83b59d41012428463585b1c8926a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1459583138836164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,6 +2999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4175031266855853}
   - component: {fileID: 137466118840130023}
+  - component: {fileID: 2052971356436282348}
   m_Layer: 7
   m_Name: GO_Bld_Trench
   m_TagString: Untagged
@@ -3070,6 +3082,28 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0025253296, y: 0.13640428, z: 0.6197583}
     m_Extent: {x: 2.496149, y: 2.1510646, z: 0.68167263}
   m_DirtyAABB: 0
+--- !u!64 &2052971356436282348
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853782494003675}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 71b3d2ea24499614e8eda6d2717d0037, type: 2}
 --- !u!1 &1881708154192852
 GameObject:
   m_ObjectHideFlags: 0
