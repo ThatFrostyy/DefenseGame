@@ -2,12 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!74 &7400000
 AnimationClip:
-  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GO_Bld_Trench_Attack_Idle
+  serializedVersion: 7
   m_Legacy: 1
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -171,7 +171,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -187,13 +188,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1.7853301E-08, y: -5.6868043E-08, z: 0.29952857, w: 0.9540873}
+        value: {x: 0.000000017853301, y: -0.000000056868043, z: 0.29952857, w: 0.9540873}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -203,7 +205,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -219,7 +222,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -235,13 +239,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1.5279513E-09, y: 2.4893488E-16, z: -1, w: -1.6292068E-07}
+        value: {x: 0.0000000015279513, y: 2.4893488e-16, z: -1, w: -0.00000016292068}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -251,7 +256,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -267,13 +273,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 6.6985333E-09, y: -4.4822343E-08, z: 0.3083873, w: 0.95126086}
+        value: {x: 0.0000000066985333, y: -0.000000044822343, z: 0.3083873, w: 0.95126086}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -283,7 +290,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -299,7 +307,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -315,13 +324,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 2.910383E-11, y: -4.780816E-10, z: -5.820766E-11, w: 1}
+        value: {x: 2.910383e-11, y: -4.780816e-10, z: -5.820766e-11, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -331,7 +341,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -347,7 +358,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -363,7 +375,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -379,13 +392,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -1.3969836E-09, y: -9.313226E-10, z: -1.3010424E-18, w: 1}
+        value: {x: -0.0000000013969836, y: -9.313226e-10, z: -1.3010424e-18, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -395,7 +409,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bip001 HeadNub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bip001 HeadNub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -411,7 +426,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -427,13 +443,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -8.5217495E-09, y: -1.222393E-08, z: 0.8203339, w: 0.5718849}
+        value: {x: -0.0000000085217495, y: -0.00000001222393, z: 0.8203339, w: 0.5718849}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -443,7 +460,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -459,7 +478,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -475,13 +496,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 2.5094804E-08, y: -1.057634E-08, z: -0.12143877, w: 0.99259895}
+        value: {x: 0.000000025094804, y: -0.00000001057634, z: -0.12143877, w: 0.99259895}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -491,13 +514,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -3.1432132E-09, y: 1.862645E-09, z: 3.72529E-09, w: 1}
+        value: {x: -0.0000000031432132, y: 0.000000001862645, z: 0.00000000372529, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -507,7 +532,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01/Bip001 L Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01/Bip001 L Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -523,7 +550,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -539,13 +568,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -2.1420421E-08, y: -3.72529E-09, z: -7.979728E-17, w: 1}
+        value: {x: -0.000000021420421, y: -0.00000000372529, z: -7.979728e-17, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -555,7 +586,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11/Bip001 L Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11/Bip001 L Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -571,7 +604,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -587,13 +621,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 2.6396432E-08, y: -4.9873288E-09, z: 0.7146023, w: 0.69953096}
+        value: {x: 0.000000026396432, y: -0.0000000049873288, z: 0.7146023, w: 0.69953096}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -603,7 +638,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -619,7 +656,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -635,13 +674,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 9.562391E-09, y: 2.6252357E-08, z: -0.34225133, w: 0.93960845}
+        value: {x: 0.000000009562391, y: 0.000000026252357, z: -0.34225133, w: 0.93960845}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -651,13 +692,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -2.793969E-09, y: -7.45058E-09, z: 1, w: -1.6292068E-07}
+        value: {x: -0.000000002793969, y: -0.00000000745058, z: 1, w: -0.00000016292068}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -667,7 +710,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01/Bip001 R Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01/Bip001 R Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -683,7 +728,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -699,13 +746,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 9.313226E-10, y: -1.5173171E-16, z: 1, w: -1.6292068E-07}
+        value: {x: 9.313226e-10, y: -1.5173171e-16, z: 1, w: -0.00000016292068}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -715,7 +764,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11/Bip001 R Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11/Bip001 R Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -811,7 +862,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -827,13 +879,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -2.2282713E-09, y: -2.9853975E-09, z: 0.8013865, w: 0.5981469}
+        value: {x: -0.0000000022282713, y: -0.0000000029853975, z: 0.8013865, w: 0.5981469}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -843,7 +896,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -859,7 +913,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -875,13 +930,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -5.282346E-09, y: 4.6566043E-10, z: -1, w: -1.6292068E-07}
+        value: {x: -0.000000005282346, y: 4.6566043e-10, z: -1, w: -0.00000016292068}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -891,7 +947,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0/Bip002 L Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0/Bip002 L Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -907,13 +964,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 3.9333883E-09, y: 6.331968E-09, z: 0.8325515, w: 0.5539476}
+        value: {x: 0.0000000039333883, y: 0.000000006331968, z: 0.8325515, w: 0.5539476}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -923,7 +981,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -939,7 +998,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -955,13 +1015,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: -1.4551915E-11, z: 0, w: 1}
+        value: {x: 0, y: -1.4551915e-11, z: 0, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -971,7 +1032,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0/Bip002 R Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0/Bip002 R Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -987,7 +1049,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1003,7 +1066,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1019,13 +1083,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -1.3969841E-09, y: 2.793968E-09, z: 2.9802322E-08, w: 1}
+        value: {x: -0.0000000013969841, y: 0.000000002793968, z: 0.000000029802322, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -1035,7 +1100,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head/Bip002 HeadNub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head/Bip002 HeadNub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1051,7 +1117,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1067,13 +1134,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 8.521768E-09, y: 1.2223916E-08, z: 0.8203332, w: 0.57188594}
+        value: {x: 0.000000008521768, y: 0.000000012223916, z: 0.8203332, w: 0.57188594}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -1083,7 +1151,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1099,7 +1169,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1115,13 +1187,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -2.7295235E-08, y: 1.2722085E-08, z: -0.121438794, w: 0.99259895}
+        value: {x: -0.000000027295235, y: 0.000000012722085, z: -0.121438794, w: 0.99259895}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -1131,13 +1205,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1.5599653E-08, y: -1.8626451E-09, z: 2.9056618E-17, w: 1}
+        value: {x: 0.000000015599653, y: -0.0000000018626451, z: 2.9056618e-17, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -1147,7 +1223,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01/Bip002 L Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01/Bip002 L Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1163,7 +1241,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1179,13 +1259,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1.3969837E-08, y: 9.313225E-10, z: -1.3010424E-17, w: 1}
+        value: {x: 0.000000013969837, y: 9.313225e-10, z: -1.3010424e-17, w: 1}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -1195,7 +1277,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11/Bip002 L Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11/Bip002 L Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1211,7 +1295,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1227,13 +1312,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -2.2457414E-10, y: 2.1072225E-08, z: 0.7146023, w: 0.69953096}
+        value: {x: -2.2457414e-10, y: 0.000000021072225, z: 0.7146023, w: 0.69953096}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -1243,7 +1329,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1259,7 +1347,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1275,13 +1365,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 1.0506839E-08, y: 7.0758928E-09, z: -0.34225133, w: 0.93960845}
+        value: {x: 0.000000010506839, y: 0.0000000070758928, z: -0.34225133, w: 0.93960845}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -1291,13 +1383,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -1.2107194E-08, y: -1.9725123E-15, z: -1, w: -1.6292068E-07}
+        value: {x: -0.000000012107194, y: -1.9725123e-15, z: -1, w: -0.00000016292068}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -1307,7 +1401,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01/Bip002 R Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01/Bip002 R Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1323,7 +1419,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1339,13 +1437,15 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -1.1641547E-09, y: -7.4505815E-09, z: 1, w: -1.6292068E-07}
+        value: {x: -0.0000000011641547, y: -0.0000000074505815, z: 1, w: -0.00000016292068}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -1355,7 +1455,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11/Bip002 R Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11/Bip002 R Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1412,7 +1514,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -5.251375E-08, y: 0, z: -5.251375E-08}
+        value: {x: -0.00000005251375, y: 0, z: -0.00000005251375}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1428,7 +1530,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -5.7805956E-08, y: 0, z: 0.41584852}
+        value: {x: -0.000000057805956, y: 0, z: 0.41584852}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1444,7 +1546,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -6.088318E-08, y: 0, z: 0.8181829}
+        value: {x: -0.00000006088318, y: 0, z: 0.8181829}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1477,8 +1579,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: {x: 0.02, y: 0.01455856, z: 1.0179069}
-        inSlope: {x: 2.7755573E-16, y: 0, z: 0}
-        outSlope: {x: 2.7755573E-16, y: 0, z: 0}
+        inSlope: {x: 2.7755573e-16, y: 0, z: 0}
+        outSlope: {x: 2.7755573e-16, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1534,15 +1636,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.17668891, y: -0.0002279663, z: 4.4898985E-05}
-        inSlope: {x: -2.0435853E-06, y: 0, z: 0}
-        outSlope: {x: -2.0435853E-06, y: 0, z: 0}
+        value: {x: -0.17668891, y: -0.0002279663, z: 0.000044898985}
+        inSlope: {x: -0.0000020435853, y: 0, z: 0}
+        outSlope: {x: -0.0000020435853, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1550,13 +1653,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.47251707, y: -0.0141455075, z: -1.7204284E-05}
+        value: {x: -0.47251707, y: -0.0141455075, z: -0.000017204284}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1566,15 +1670,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.06768921, y: 0.021907615, z: 0}
-        inSlope: {x: 5.088533E-06, y: 0, z: 0}
-        outSlope: {x: 5.088533E-06, y: 0, z: 0}
+        inSlope: {x: 0.000005088533, y: 0, z: 0}
+        outSlope: {x: 0.000005088533, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1582,15 +1687,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.24213852, y: 0, z: 7.6293944E-08}
-        inSlope: {x: -6.6212233E-06, y: 0, z: 0}
-        outSlope: {x: -6.6212233E-06, y: 0, z: 0}
+        value: {x: -0.24213852, y: 0, z: 0.000000076293944}
+        inSlope: {x: -0.0000066212233, y: 0, z: 0}
+        outSlope: {x: -0.0000066212233, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1598,7 +1704,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bip001 HeadNub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bip001 HeadNub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1614,15 +1721,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.19762509, y: 7.6293944E-08, z: 0}
-        inSlope: {x: -1.4713833E-06, y: 0, z: 0}
-        outSlope: {x: -1.4713833E-06, y: 0, z: 0}
+        value: {x: -0.19762509, y: 0.000000076293944, z: 0}
+        inSlope: {x: -0.0000014713833, y: 0, z: 0}
+        outSlope: {x: -0.0000014713833, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1630,13 +1738,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.24604827, y: 7.6293944E-08, z: 3.8146972E-08}
+        value: {x: -0.24604827, y: 0.000000076293944, z: 0.000000038146972}
         inSlope: {x: -0, y: 0, z: 0}
         outSlope: {x: -0, y: 0, z: 0}
         tangentMode: 0
@@ -1646,15 +1755,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.32210144, y: 0, z: -7.6293944E-08}
-        inSlope: {x: 4.0871755E-06, y: 0, z: 0}
-        outSlope: {x: 4.0871755E-06, y: 0, z: 0}
+        value: {x: -0.32210144, y: 0, z: -0.000000076293944}
+        inSlope: {x: 0.0000040871755, y: 0, z: 0}
+        outSlope: {x: 0.0000040871755, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1662,7 +1773,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1678,15 +1791,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.043266144, y: -7.6293944E-08, z: 0}
-        inSlope: {x: -4.9182336E-06, y: 0, z: 0}
-        outSlope: {x: -4.9182336E-06, y: 0, z: 0}
+        value: {x: -0.043266144, y: -0.000000076293944, z: 0}
+        inSlope: {x: -0.0000049182336, y: 0, z: 0}
+        outSlope: {x: -0.0000049182336, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1694,15 +1809,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.051864777, y: 3.8146972E-08, z: -7.6293944E-08}
-        inSlope: {x: -1.1102229E-15, y: 0, z: 0}
-        outSlope: {x: -1.1102229E-15, y: 0, z: 0}
+        value: {x: -0.051864777, y: 0.000000038146972, z: -0.000000076293944}
+        inSlope: {x: -1.1102229e-15, y: 0, z: 0}
+        outSlope: {x: -1.1102229e-15, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1710,7 +1827,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01/Bip001 L Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01/Bip001 L Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1726,15 +1845,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.067904964, y: 0, z: 5.7220458E-08}
-        inSlope: {x: -4.9182336E-06, y: 0, z: 0}
-        outSlope: {x: -4.9182336E-06, y: 0, z: 0}
+        value: {x: -0.067904964, y: 0, z: 0.000000057220458}
+        inSlope: {x: -0.0000049182336, y: 0, z: 0}
+        outSlope: {x: -0.0000049182336, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1742,15 +1863,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.055075835, y: -1.5258789E-07, z: 1.9073486E-08}
-        inSlope: {x: 8.8146735E-06, y: 0, z: 0}
-        outSlope: {x: 8.8146735E-06, y: 0, z: 0}
+        value: {x: -0.055075835, y: -0.00000015258789, z: 0.000000019073486}
+        inSlope: {x: 0.0000088146735, y: 0, z: 0}
+        outSlope: {x: 0.0000088146735, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1758,7 +1881,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11/Bip001 L Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11/Bip001 L Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1774,15 +1899,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.197625, y: 7.6293944E-08, z: 0}
-        inSlope: {x: 8.9917876E-07, y: 0, z: 0}
-        outSlope: {x: 8.9917876E-07, y: 0, z: 0}
+        value: {x: -0.197625, y: 0.000000076293944, z: 0}
+        inSlope: {x: 0.00000089917876, y: 0, z: 0}
+        outSlope: {x: 0.00000089917876, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1790,15 +1916,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.24604839, y: 3.8146972E-08, z: -1.5258789E-07}
-        inSlope: {x: 1.1607578E-05, y: 0, z: 0}
-        outSlope: {x: 1.1607578E-05, y: 0, z: 0}
+        value: {x: -0.24604839, y: 0.000000038146972, z: -0.00000015258789}
+        inSlope: {x: 0.000011607578, y: 0, z: 0}
+        outSlope: {x: 0.000011607578, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1806,15 +1933,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.32210135, y: 0, z: 0}
-        inSlope: {x: 2.9427665E-06, y: 0, z: 0}
-        outSlope: {x: 2.9427665E-06, y: 0, z: 0}
+        inSlope: {x: 0.0000029427665, y: 0, z: 0}
+        outSlope: {x: 0.0000029427665, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1822,7 +1951,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1838,15 +1969,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.043266296, y: 0, z: 7.6293944E-08}
-        inSlope: {x: 2.1662029E-06, y: 0, z: 0}
-        outSlope: {x: 2.1662029E-06, y: 0, z: 0}
+        value: {x: -0.043266296, y: 0, z: 0.000000076293944}
+        inSlope: {x: 0.0000021662029, y: 0, z: 0}
+        outSlope: {x: 0.0000021662029, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1854,15 +1987,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.0518647, y: 0, z: 0}
-        inSlope: {x: -2.2888178E-06, y: 0, z: 0}
-        outSlope: {x: -2.2888178E-06, y: 0, z: 0}
+        inSlope: {x: -0.0000022888178, y: 0, z: 0}
+        outSlope: {x: -0.0000022888178, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1870,7 +2005,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01/Bip001 R Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01/Bip001 R Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1886,15 +2023,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.06790508, y: -1.5258789E-07, z: 0}
-        inSlope: {x: -2.2888178E-06, y: 0, z: 0}
-        outSlope: {x: -2.2888178E-06, y: 0, z: 0}
+        value: {x: -0.06790508, y: -0.00000015258789, z: 0}
+        inSlope: {x: -0.0000022888178, y: 0, z: 0}
+        outSlope: {x: -0.0000022888178, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1902,15 +2041,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.055075683, y: 0, z: -1.5258789E-07}
-        inSlope: {x: -1.8256048E-06, y: 0, z: 0}
-        outSlope: {x: -1.8256048E-06, y: 0, z: 0}
+        value: {x: -0.055075683, y: 0, z: -0.00000015258789}
+        inSlope: {x: -0.0000018256048, y: 0, z: 0}
+        outSlope: {x: -0.0000018256048, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1918,15 +2059,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11/Bip001 R Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11/Bip001 R Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: 0.115327835, y: -0.0612915, z: 0.109490715}
-        inSlope: {x: 3.6508245E-06, y: 0, z: 0}
-        outSlope: {x: 3.6508245E-06, y: 0, z: 0}
+        inSlope: {x: 0.0000036508245, y: 0, z: 0}
+        outSlope: {x: 0.0000036508245, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1934,15 +2077,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.48841125, y: 1.5258789E-07, z: -1.9073486E-08}
-        inSlope: {x: -2.9427665E-06, y: 0, z: 0}
-        outSlope: {x: -2.9427665E-06, y: 0, z: 0}
+        value: {x: -0.48841125, y: 0.00000015258789, z: -0.000000019073486}
+        inSlope: {x: -0.0000029427665, y: 0, z: 0}
+        outSlope: {x: -0.0000029427665, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1950,15 +2094,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.51561993, y: -7.6293944E-08, z: 1.9073486E-08}
-        inSlope: {x: -8.881783E-15, y: 0, z: 0}
-        outSlope: {x: -8.881783E-15, y: 0, z: 0}
+        value: {x: -0.51561993, y: -0.000000076293944, z: 0.000000019073486}
+        inSlope: {x: -8.881783e-15, y: 0, z: 0}
+        outSlope: {x: -8.881783e-15, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1966,15 +2111,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.115427844, y: 0.22568461, z: 3.8146972E-08}
-        inSlope: {x: -3.330669E-15, y: 0, z: 0}
-        outSlope: {x: -3.330669E-15, y: 0, z: 0}
+        value: {x: -0.115427844, y: 0.22568461, z: 0.000000038146972}
+        inSlope: {x: -3.330669e-15, y: 0, z: 0}
+        outSlope: {x: -3.330669e-15, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1982,15 +2128,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.015055846, y: 5.9604643E-10, z: 3.8146972E-08}
-        inSlope: {x: -2.7755573E-16, y: 0, z: 0}
-        outSlope: {x: -2.7755573E-16, y: 0, z: 0}
+        value: {x: -0.015055846, y: 5.9604643e-10, z: 0.000000038146972}
+        inSlope: {x: -2.7755573e-16, y: 0, z: 0}
+        outSlope: {x: -2.7755573e-16, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -1998,15 +2145,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: 0.11420822, y: -0.023143463, z: -0.11022503}
-        inSlope: {x: 4.578373E-06, y: 0, z: 0}
-        outSlope: {x: 4.578373E-06, y: 0, z: 0}
+        inSlope: {x: 0.000004578373, y: 0, z: 0}
+        outSlope: {x: 0.000004578373, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2014,15 +2162,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.48841116, y: -7.6293944E-08, z: 0}
-        inSlope: {x: 8.8282995E-06, y: 0, z: 0}
-        outSlope: {x: 8.8282995E-06, y: 0, z: 0}
+        value: {x: -0.48841116, y: -0.000000076293944, z: 0}
+        inSlope: {x: 0.0000088282995, y: 0, z: 0}
+        outSlope: {x: 0.0000088282995, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2030,15 +2179,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.51561993, y: 0, z: 0}
-        inSlope: {x: -7.0844294E-07, y: 0, z: 0}
-        outSlope: {x: -7.0844294E-07, y: 0, z: 0}
+        inSlope: {x: -0.00000070844294, y: 0, z: 0}
+        outSlope: {x: -0.00000070844294, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2046,15 +2196,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.11542785, y: 0.22568473, z: 3.8146972E-08}
-        inSlope: {x: -3.330669E-15, y: 0, z: 0}
-        outSlope: {x: -3.330669E-15, y: 0, z: 0}
+        value: {x: -0.11542785, y: 0.22568473, z: 0.000000038146972}
+        inSlope: {x: -3.330669e-15, y: 0, z: 0}
+        outSlope: {x: -3.330669e-15, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2062,13 +2213,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.015055771, y: -2.9802322E-10, z: 0}
+        value: {x: -0.015055771, y: -2.9802322e-10, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -2078,7 +2230,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2117,8 +2270,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: {x: 0.02, y: 0.014558563, z: 0.59428126}
-        inSlope: {x: 2.7755573E-16, y: 0, z: 0}
-        outSlope: {x: 2.7755573E-16, y: 0, z: 0}
+        inSlope: {x: 2.7755573e-16, y: 0, z: 0}
+        outSlope: {x: 2.7755573e-16, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2174,15 +2327,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: 0.08578209, y: -0.06031471, z: 0.10577053}
-        inSlope: {x: 6.808303E-07, y: 0, z: 0}
-        outSlope: {x: 6.808303E-07, y: 0, z: 0}
+        inSlope: {x: 0.0000006808303, y: 0, z: 0}
+        outSlope: {x: 0.0000006808303, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2190,15 +2344,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.48841128, y: -3.8146972E-08, z: 0}
-        inSlope: {x: -5.885533E-06, y: 0, z: 0}
-        outSlope: {x: -5.885533E-06, y: 0, z: 0}
+        value: {x: -0.48841128, y: -0.000000038146972, z: 0}
+        inSlope: {x: -0.000005885533, y: 0, z: 0}
+        outSlope: {x: -0.000005885533, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2206,15 +2361,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.51562005, y: -1.14440915E-07, z: 0}
-        inSlope: {x: -2.9427665E-06, y: 0, z: 0}
-        outSlope: {x: -2.9427665E-06, y: 0, z: 0}
+        value: {x: -0.51562005, y: -0.000000114440915, z: 0}
+        inSlope: {x: -0.0000029427665, y: 0, z: 0}
+        outSlope: {x: -0.0000029427665, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2222,15 +2378,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.115427844, y: 0.22568472, z: 0}
-        inSlope: {x: -3.330669E-15, y: 0, z: 0}
-        outSlope: {x: -3.330669E-15, y: 0, z: 0}
+        inSlope: {x: -3.330669e-15, y: 0, z: 0}
+        outSlope: {x: -3.330669e-15, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2238,15 +2395,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.015055808, y: 0, z: 0}
-        inSlope: {x: -1.3877786E-16, y: 0, z: 0}
-        outSlope: {x: -1.3877786E-16, y: 0, z: 0}
+        inSlope: {x: -1.3877786e-16, y: 0, z: 0}
+        outSlope: {x: -1.3877786e-16, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2254,15 +2412,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0/Bip002 L Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0/Bip002 L Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: 0.14375393, y: -0.02412033, z: -0.106504746}
-        inSlope: {x: -4.6722853E-06, y: 0, z: 0}
-        outSlope: {x: -4.6722853E-06, y: 0, z: 0}
+        inSlope: {x: -0.0000046722853, y: 0, z: 0}
+        outSlope: {x: -0.0000046722853, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2270,15 +2429,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.4884113, y: 0, z: 0}
-        inSlope: {x: -4.741124E-06, y: 0, z: 0}
-        outSlope: {x: -4.741124E-06, y: 0, z: 0}
+        inSlope: {x: -0.000004741124, y: 0, z: 0}
+        outSlope: {x: -0.000004741124, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2286,15 +2446,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.5156201, y: -3.33786E-08, z: -1.9073486E-08}
-        inSlope: {x: 1.1389595E-05, y: 0, z: 0}
-        outSlope: {x: 1.1389595E-05, y: 0, z: 0}
+        value: {x: -0.5156201, y: -0.0000000333786, z: -0.000000019073486}
+        inSlope: {x: 0.000011389595, y: 0, z: 0}
+        outSlope: {x: 0.000011389595, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2302,7 +2463,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2318,15 +2480,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.015055695, y: 0, z: 0}
-        inSlope: {x: -4.6202103E-06, y: 0, z: 0}
-        outSlope: {x: -4.6202103E-06, y: 0, z: 0}
+        inSlope: {x: -0.0000046202103, y: 0, z: 0}
+        outSlope: {x: -0.0000046202103, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2334,15 +2497,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0/Bip002 R Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0/Bip002 R Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.17668891, y: -0.0002280426, z: 4.497528E-05}
-        inSlope: {x: -3.896437E-06, y: 0, z: 0}
-        outSlope: {x: -3.896437E-06, y: 0, z: 0}
+        value: {x: -0.17668891, y: -0.0002280426, z: 0.00004497528}
+        inSlope: {x: -0.000003896437, y: 0, z: 0}
+        outSlope: {x: -0.000003896437, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2350,13 +2514,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.47251716, y: -0.014145431, z: -1.7204284E-05}
+        value: {x: -0.47251716, y: -0.014145431, z: -0.000017204284}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -2366,15 +2531,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.06768913, y: 0.0219075, z: -7.6293944E-08}
-        inSlope: {x: -5.1089694E-07, y: 0, z: 0}
-        outSlope: {x: -5.1089694E-07, y: 0, z: 0}
+        value: {x: -0.06768913, y: 0.0219075, z: -0.000000076293944}
+        inSlope: {x: -0.00000051089694, y: 0, z: 0}
+        outSlope: {x: -0.00000051089694, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2382,15 +2548,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.24213852, y: 0, z: 7.6293944E-08}
-        inSlope: {x: -2.9700138E-06, y: 0, z: 0}
-        outSlope: {x: -2.9700138E-06, y: 0, z: 0}
+        value: {x: -0.24213852, y: 0, z: 0.000000076293944}
+        inSlope: {x: -0.0000029700138, y: 0, z: 0}
+        outSlope: {x: -0.0000029700138, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2398,7 +2565,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head/Bip002 HeadNub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head/Bip002 HeadNub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2414,15 +2582,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.1976251, y: 0, z: 0}
-        inSlope: {x: -2.9427665E-06, y: 0, z: 0}
-        outSlope: {x: -2.9427665E-06, y: 0, z: 0}
+        inSlope: {x: -0.0000029427665, y: 0, z: 0}
+        outSlope: {x: -0.0000029427665, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2430,15 +2599,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.2460482, y: 1.9073486E-08, z: 0}
-        inSlope: {x: -2.0435878E-06, y: 0, z: 0}
-        outSlope: {x: -2.0435878E-06, y: 0, z: 0}
+        value: {x: -0.2460482, y: 0.000000019073486, z: 0}
+        inSlope: {x: -0.0000020435878, y: 0, z: 0}
+        outSlope: {x: -0.0000020435878, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2446,15 +2616,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.32210144, y: 0, z: 0}
-        inSlope: {x: -5.885533E-06, y: 0, z: 0}
-        outSlope: {x: -5.885533E-06, y: 0, z: 0}
+        inSlope: {x: -0.000005885533, y: 0, z: 0}
+        outSlope: {x: -0.000005885533, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2462,7 +2634,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2478,15 +2652,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.043266296, y: -3.8146972E-08, z: -1.4305114E-08}
-        inSlope: {x: 5.088533E-06, y: 0, z: 0}
-        outSlope: {x: 5.088533E-06, y: 0, z: 0}
+        value: {x: -0.043266296, y: -0.000000038146972, z: -0.000000014305114}
+        inSlope: {x: 0.000005088533, y: 0, z: 0}
+        outSlope: {x: 0.000005088533, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2494,15 +2670,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.05186447, y: 0, z: -4.7683715E-09}
-        inSlope: {x: -1.0347364E-05, y: 0, z: 0}
-        outSlope: {x: -1.0347364E-05, y: 0, z: 0}
+        value: {x: -0.05186447, y: 0, z: -0.0000000047683715}
+        inSlope: {x: -0.000010347364, y: 0, z: 0}
+        outSlope: {x: -0.000010347364, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2510,7 +2688,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01/Bip002 L Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01/Bip002 L Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2526,15 +2706,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.067904964, y: 0, z: -7.6293944E-08}
-        inSlope: {x: -9.32557E-06, y: 0, z: 0}
-        outSlope: {x: -9.32557E-06, y: 0, z: 0}
+        value: {x: -0.067904964, y: 0, z: -0.000000076293944}
+        inSlope: {x: -0.00000932557, y: 0, z: 0}
+        outSlope: {x: -0.00000932557, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2542,15 +2724,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.055075683, y: 0, z: 0}
-        inSlope: {x: -1.1102229E-15, y: 0, z: 0}
-        outSlope: {x: -1.1102229E-15, y: 0, z: 0}
+        inSlope: {x: -1.1102229e-15, y: 0, z: 0}
+        outSlope: {x: -1.1102229e-15, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2558,7 +2742,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11/Bip002 L Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11/Bip002 L Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2574,15 +2760,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.19762504, y: 0, z: -7.6293944E-08}
-        inSlope: {x: -4.4408917E-15, y: 0, z: 0}
-        outSlope: {x: -4.4408917E-15, y: 0, z: 0}
+        value: {x: -0.19762504, y: 0, z: -0.000000076293944}
+        inSlope: {x: -4.4408917e-15, y: 0, z: 0}
+        outSlope: {x: -4.4408917e-15, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2590,15 +2777,16 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.24604827, y: 0, z: 0}
-        inSlope: {x: -5.6947974E-06, y: 0, z: 0}
-        outSlope: {x: -5.6947974E-06, y: 0, z: 0}
+        inSlope: {x: -0.0000056947974, y: 0, z: 0}
+        outSlope: {x: -0.0000056947974, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2606,15 +2794,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.32210138, y: 0, z: 0}
-        inSlope: {x: 7.029942E-06, y: 0, z: 0}
-        outSlope: {x: 7.029942E-06, y: 0, z: 0}
+        inSlope: {x: 0.000007029942, y: 0, z: 0}
+        outSlope: {x: 0.000007029942, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2622,7 +2812,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2638,15 +2830,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.043266144, y: 7.6293944E-08, z: 7.6293944E-08}
-        inSlope: {x: -4.9182336E-06, y: 0, z: 0}
-        outSlope: {x: -4.9182336E-06, y: 0, z: 0}
+        value: {x: -0.043266144, y: 0.000000076293944, z: 0.000000076293944}
+        inSlope: {x: -0.0000049182336, y: 0, z: 0}
+        outSlope: {x: -0.0000049182336, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2654,15 +2848,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.051864624, y: -1.5258789E-07, z: -1.9073486E-08}
-        inSlope: {x: -8.8146735E-06, y: 0, z: 0}
-        outSlope: {x: -8.8146735E-06, y: 0, z: 0}
+        value: {x: -0.051864624, y: -0.00000015258789, z: -0.000000019073486}
+        inSlope: {x: -0.0000088146735, y: 0, z: 0}
+        outSlope: {x: -0.0000088146735, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2670,7 +2866,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01/Bip002 R Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01/Bip002 R Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2686,15 +2884,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: {x: -0.067905046, y: 0, z: 0}
-        inSlope: {x: -5.088533E-06, y: 0, z: 0}
-        outSlope: {x: -5.088533E-06, y: 0, z: 0}
+        inSlope: {x: -0.000005088533, y: 0, z: 0}
+        outSlope: {x: -0.000005088533, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2702,15 +2902,17 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.055075683, y: 0, z: 7.6293944E-08}
-        inSlope: {x: -2.2888178E-06, y: 0, z: 0}
-        outSlope: {x: -2.2888178E-06, y: 0, z: 0}
+        value: {x: -0.055075683, y: 0, z: 0.000000076293944}
+        inSlope: {x: -0.0000022888178, y: 0, z: 0}
+        outSlope: {x: -0.0000022888178, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2718,7 +2920,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11/Bip002 R Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11/Bip002 R Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2879,7 +3083,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2895,7 +3100,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2911,7 +3117,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2927,7 +3134,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2943,7 +3151,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bip001 HeadNub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 Head/Bip001 HeadNub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2959,7 +3168,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2975,7 +3185,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2991,7 +3202,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3007,7 +3220,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3023,7 +3238,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3039,7 +3256,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3055,7 +3274,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01/Bip001 L Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger01/Bip001 L Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3071,7 +3292,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3087,7 +3310,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3103,7 +3328,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11/Bip001 L Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001
+      L Forearm/Bip001 L Hand/Bip001 L Finger1/Bip001 L Finger11/Bip001 L Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3119,7 +3346,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3135,7 +3363,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3151,7 +3380,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3167,7 +3398,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3183,7 +3416,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3199,7 +3434,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3215,7 +3452,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01/Bip001 R Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger01/Bip001 R Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3231,7 +3470,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3247,7 +3488,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3263,7 +3506,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11/Bip001 R Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 Spine1/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001
+      R Forearm/Bip001 R Hand/Bip001 R Finger1/Bip001 R Finger11/Bip001 R Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3279,7 +3524,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3295,7 +3541,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3311,7 +3558,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3327,7 +3575,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3343,7 +3592,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3359,7 +3609,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3375,7 +3626,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3391,7 +3643,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3407,7 +3660,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3423,7 +3677,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun/Dummy_Sol01/Bip001/Bip001 Pelvis/Bip001
+      Spine/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3503,7 +3758,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3519,7 +3775,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3535,7 +3792,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3551,7 +3809,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3567,7 +3826,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3583,7 +3843,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0/Bip002 L Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 L Thigh/Bip002 L Calf/Bip002 L Foot/Bip002 L Toe0/Bip002 L Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3599,7 +3860,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3615,7 +3877,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3631,7 +3894,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3647,7 +3911,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3663,7 +3928,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0/Bip002 R Toe0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 R Thigh/Bip002 R Calf/Bip002 R Foot/Bip002 R Toe0/Bip002 R Toe0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3679,7 +3945,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3695,7 +3962,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3711,7 +3979,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3727,7 +3996,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head/Bip002 HeadNub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 Head/Bip002 HeadNub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3743,7 +4013,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3759,7 +4030,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3775,7 +4047,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3791,7 +4065,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3807,7 +4083,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3823,7 +4101,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3839,7 +4119,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01/Bip002 L Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger0/Bip002 L Finger01/Bip002 L Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3855,7 +4137,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3871,7 +4155,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3887,7 +4173,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002 L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11/Bip002 L Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 L Clavicle/Bip002 L UpperArm/Bip002
+      L Forearm/Bip002 L Hand/Bip002 L Finger1/Bip002 L Finger11/Bip002 L Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3903,7 +4191,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3919,7 +4208,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3935,7 +4225,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3951,7 +4243,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3967,7 +4261,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger0
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger0
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3983,7 +4279,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3999,7 +4297,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01/Bip002 R Finger0Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger0/Bip002 R Finger01/Bip002 R Finger0Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4015,7 +4315,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger1
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4031,7 +4333,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4047,7 +4351,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002 Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002 R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11/Bip002 R Finger1Nub
+    path: Dummy_root/Bone_Body/Bone_Top_Gun2/Dummy_Sol02/Bip002/Bip002 Pelvis/Bip002
+      Spine/Bip002 Spine1/Bip002 Neck/Bip002 R Clavicle/Bip002 R UpperArm/Bip002
+      R Forearm/Bip002 R Hand/Bip002 R Finger1/Bip002 R Finger11/Bip002 R Finger1Nub
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4099,7 +4405,7 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves: []
   m_SampleRate: 30
-  m_WrapMode: 0
+  m_WrapMode: 2
   m_Bounds:
     m_Center: {x: 0.0025253296, y: 0.9980023, z: -0.13640428}
     m_Extent: {x: 2.496149, y: 1.0599167, z: 2.1510644}
