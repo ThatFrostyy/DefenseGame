@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
 
 public class UnitSpawner : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class UnitSpawner : MonoBehaviour
     [Range(0f, 1f)] public float previewAlpha = 0.5f;
     public LayerMask deploymentLayerMask;
     public LayerMask obstacleMask;
+    public GameObject squadPrefab; // Assign a prefab with the Squad script here
 
     private UnitData currentUnitToPlace;
 
@@ -70,23 +72,23 @@ public class UnitSpawner : MonoBehaviour
 
         Vector3 deployPosition = previewInstance.transform.position;
 
-        GameObject newUnit = Instantiate(currentUnitToPlace.unitPrefab, deployPosition, Quaternion.identity);
+        GameObject newSquadGO = Instantiate(squadPrefab, deployPosition, Quaternion.identity);
+        Squad newSquad = newSquadGO.GetComponent<Squad>();
 
-        if (newUnit.TryGetComponent<Unit>(out var unitComponent))
+        for (int i = 0; i < newSquad.formationPoints.Count; i++)
         {
-            unitComponent.Setup(currentUnitToPlace);
-        }
+            // If the UnitData specifies a squad size smaller than the available points, stop spawning
+            if (i >= currentUnitToPlace.squadSize) break;
 
-        if (newUnit.TryGetComponent<Animation>(out var unitAnimation))
-        {
-            if (currentUnitToPlace.animationData.appear != null)
+            Vector3 spawnPos = newSquad.formationPoints[i].position;
+
+            if (NavMesh.SamplePosition(spawnPos, out NavMeshHit hit, 2.0f, NavMesh.AllAreas))
             {
-                unitAnimation.Play(currentUnitToPlace.animationData.appear.name);
+                SpawnSingleSoldier(hit.position, newSquad);
             }
-
-            if (currentUnitToPlace.animationData.idle != null)
+            else
             {
-                unitAnimation.PlayQueued(currentUnitToPlace.animationData.idle.name, QueueMode.CompleteOthers);
+                Debug.LogWarning($"Could not find a valid NavMesh position near formation point {i}. Spawning at squad center.");
             }
         }
 
@@ -111,10 +113,40 @@ public class UnitSpawner : MonoBehaviour
         EndPreview();
     }
 
+    private void SpawnSingleSoldier(Vector3 position, Squad squad)
+    {
+        GameObject newUnitGO = Instantiate(currentUnitToPlace.unitPrefab, position, Quaternion.identity);
+
+        if (newUnitGO.TryGetComponent<Soldier>(out var soldierComponent))
+        {
+            soldierComponent.Setup(currentUnitToPlace);
+            squad.AddSoldier(soldierComponent);
+        }
+
+        if (newUnitGO.TryGetComponent<UnitAnimation>(out var unitAnimation))
+        {
+            unitAnimation.Setup(currentUnitToPlace);
+            unitAnimation.PlayAppear();
+        }
+    }
+
     #region Preview
     private void StartPreview()
     {
         previewInstance = Instantiate(currentUnitToPlace.unitPrefab);
+
+        if (previewInstance.TryGetComponent<Soldier>(out var soldier))
+        {
+            soldier.enabled = false;
+        }
+        if (previewInstance.TryGetComponent<UnitAnimation>(out var anim))
+        {
+            anim.enabled = false;
+        }
+        if (previewInstance.TryGetComponent<NavMeshAgent>(out var agent))
+        {
+            agent.enabled = false;
+        }
 
         if (previewInstance.GetComponent<Animation>())
         {
@@ -127,8 +159,8 @@ public class UnitSpawner : MonoBehaviour
             Material[] mats = rend.materials;
             for (int i = 0; i < mats.Length; i++)
             {
-                Material mat = mats[i];
-                mat.SetFloat("_Surface", 1);
+                Material mat = new(mats[i]); // Create a new material instance
+                mat.SetFloat("_Surface", 1); // For URP Lit shader to enable transparency
                 mat.SetOverrideTag("RenderType", "Transparent");
                 mat.renderQueue = (int)UnityEngine.Rendering.RenderQueue.Transparent;
                 mat.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);

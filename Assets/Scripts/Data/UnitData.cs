@@ -21,6 +21,7 @@ public class UnitData : ScriptableObject
     public float attackRange;
     public float attackRate; // Attacks per second
     public float moveSpeed; // Note: 0 for a building
+    public int squadSize = 1;
 
     [Header("Animation Data")]
     public UnitAnimationData animationData;

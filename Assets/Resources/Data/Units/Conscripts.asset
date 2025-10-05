@@ -24,6 +24,7 @@ MonoBehaviour:
   attackRange: 3
   attackRate: 1
   moveSpeed: 3
+  squadSize: 6
   animationData: {fileID: 11400000, guid: d0f866720d3e38b46b0ea1d826c765df, type: 2}
   deployEffect: {fileID: 198074956566463087, guid: 6986903e6b8f4184fa380455d74ac3de, type: 3}
   deploySounds:
