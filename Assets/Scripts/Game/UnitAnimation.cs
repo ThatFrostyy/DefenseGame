@@ -6,6 +6,8 @@ public class UnitAnimation : MonoBehaviour
     private Animation anim;
     private UnitData unitData;
 
+    private AnimationClip _currentMoveClip;
+
     void Awake()
     {
         anim = GetComponent<Animation>();
@@ -26,6 +28,8 @@ public class UnitAnimation : MonoBehaviour
 
     public void PlayIdle()
     {
+        _currentMoveClip = null;
+
         if (unitData.animationData.idle != null && !anim.IsPlaying(unitData.animationData.idle.name))
         {
             anim.CrossFade(unitData.animationData.idle.name);
@@ -34,15 +38,24 @@ public class UnitAnimation : MonoBehaviour
 
     public void PlayMove()
     {
-        AnimationClip moveClip = unitData.animationData.GetRandomMoveClip();
-        if (moveClip != null && !anim.IsPlaying(moveClip.name))
+        // --- THIS IS THE FIX ---
+
+        if (_currentMoveClip != null && anim.IsPlaying(_currentMoveClip.name))
         {
-            anim.CrossFade(moveClip.name);
+            return;
+        }
+
+        _currentMoveClip = unitData.animationData.GetRandomMoveClip();
+
+        if (_currentMoveClip != null)
+        {
+            anim.CrossFade(_currentMoveClip.name);
         }
     }
 
     public void PlayAttackIdle()
     {
+        _currentMoveClip = null;
         if (unitData.animationData.rifleAttackIdle_Stand != null && !anim.IsPlaying(unitData.animationData.rifleAttackIdle_Stand.name))
         {
             anim.CrossFade(unitData.animationData.rifleAttackIdle_Stand.name);
@@ -51,6 +64,7 @@ public class UnitAnimation : MonoBehaviour
 
     public void PlayAttackShot()
     {
+        _currentMoveClip = null;
         if (unitData.animationData.rifleShot_Stand != null)
         {
             anim.CrossFade(unitData.animationData.rifleShot_Stand.name);
