@@ -4,6 +4,8 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent), typeof(UnitAnimation))]
 public class Soldier : Unit
 {
+    public Transform muzzlePoint;
+
     private NavMeshAgent agent;
     private UnitAnimation unitAnimation;
     private Transform currentTarget;

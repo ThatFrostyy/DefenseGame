@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -58,7 +59,12 @@ public class UnitSpawner : MonoBehaviour
     {
         if (canPlaceHere)
         {
-            DeployUnit();
+            Vector3 deployPosition = previewInstance.transform.position;
+            UnitData unitToDeploy = currentUnitToPlace;
+
+            StartCoroutine(DeployWithDelay(unitToDeploy, deployPosition));
+
+            EndPreview();
         }
         else
         {
@@ -66,46 +72,46 @@ public class UnitSpawner : MonoBehaviour
         }
     }
 
-    private void DeployUnit()
+    private IEnumerator DeployWithDelay(UnitData unitData, Vector3 deployPosition)
     {
-        if (!canPlaceHere) return;
+        // Can instantiate a visual effect here (like a parachute shadow or a construction site)
+        // to show that something is happening at `deployPosition`.
 
-        Vector3 deployPosition = previewInstance.transform.position;
+        yield return new WaitForSeconds(unitData.deployTime);
 
         GameObject newSquadGO = Instantiate(squadPrefab, deployPosition, Quaternion.identity);
         Squad newSquad = newSquadGO.GetComponent<Squad>();
 
+        newSquadGO.name = $"{unitData.cardName}";
+
         for (int i = 0; i < newSquad.formationPoints.Count; i++)
         {
-            // If the UnitData specifies a squad size smaller than the available points, stop spawning
-            if (i >= currentUnitToPlace.squadSize) break;
+            if (i >= unitData.squadSize) break;
 
             Vector3 spawnPos = newSquad.formationPoints[i].position;
 
             if (NavMesh.SamplePosition(spawnPos, out NavMeshHit hit, 2.0f, NavMesh.AllAreas))
             {
-                SpawnSingleSoldier(hit.position, newSquad);
+                SpawnSingleSoldier(hit.position, newSquad, unitData);
             }
             else
             {
-                Debug.LogWarning($"Could not find a valid NavMesh position near formation point {i}. Spawning at squad center.");
+                Debug.LogWarning($"Could not find valid NavMesh position for formation point {i}. Spawning at squad center.");
             }
         }
 
-        if (currentUnitToPlace.deployEffect != null)
+        if (unitData.deployEffect != null)
         {
-            Instantiate(currentUnitToPlace.deployEffect, deployPosition, Quaternion.identity);
+            Instantiate(unitData.deployEffect, deployPosition, Quaternion.identity);
         }
 
-        if (currentUnitToPlace.deploySounds != null && currentUnitToPlace.deploySounds.Length > 0)
+        if (unitData.deploySounds != null && unitData.deploySounds.Length > 0)
         {
-            foreach (AudioClip clip in currentUnitToPlace.deploySounds)
+            foreach (AudioClip clip in unitData.deploySounds)
             {
                 if (clip != null) AudioSource.PlayClipAtPoint(clip, deployPosition);
             }
         }
-
-        EndPreview();
     }
 
     public void CancelPlacement()
@@ -113,19 +119,20 @@ public class UnitSpawner : MonoBehaviour
         EndPreview();
     }
 
-    private void SpawnSingleSoldier(Vector3 position, Squad squad)
+    private void SpawnSingleSoldier(Vector3 position, Squad squad, UnitData unitData)
     {
-        GameObject newUnitGO = Instantiate(currentUnitToPlace.unitPrefab, position, Quaternion.identity);
+        GameObject newUnitGO = Instantiate(unitData.unitPrefab, position, Quaternion.identity);
+        newUnitGO.transform.SetParent(squad.transform);
 
         if (newUnitGO.TryGetComponent<Soldier>(out var soldierComponent))
         {
-            soldierComponent.Setup(currentUnitToPlace);
+            soldierComponent.Setup(unitData);
             squad.AddSoldier(soldierComponent);
         }
 
         if (newUnitGO.TryGetComponent<UnitAnimation>(out var unitAnimation))
         {
-            unitAnimation.Setup(currentUnitToPlace);
+            unitAnimation.Setup(unitData);
             unitAnimation.PlayAppear();
         }
     }

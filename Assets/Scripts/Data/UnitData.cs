@@ -6,15 +6,18 @@ public enum UnitRarity { Common, Rare, Elite, Epic }
 [CreateAssetMenu(fileName = "NewUnitData", menuName = "RtV/Unit Data", order = 1)]
 public class UnitData : ScriptableObject
 {
+    [Header("Card Information")]
+    public string cardName;
+    public int cost;
+    public UnitRarity rarity;
+    public Sprite uiIcon;
+
     [Header("Unit Information")]
     public string unitName;
     public GameObject unitPrefab;
     public UnitType unitType;
-    public UnitRarity rarity;
-    public Sprite uiIcon;
 
     [Header("Gameplay Stats")]
-    public int cost;
     public float deployTime;
     public int maxHealth;
     public int damage;

@@ -962,6 +962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 627abe040c6297f4783950d05f80a213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  muzzlePoint: {fileID: 4481621299315022}
 --- !u!114 &4010211164832802030
 MonoBehaviour:
   m_ObjectHideFlags: 0

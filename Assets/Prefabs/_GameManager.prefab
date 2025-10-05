@@ -49,10 +49,11 @@ MonoBehaviour:
   previewAlpha: 0.2
   deploymentLayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 8
   obstacleMask:
     serializedVersion: 2
     m_Bits: 384
+  squadPrefab: {fileID: 2641202099479658458, guid: 9bf55d84a9af80548833c3b1a1afb95e, type: 3}
 --- !u!114 &7819297039527425320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,6 +71,7 @@ MonoBehaviour:
   rarityFrameData: {fileID: 11400000, guid: 81aa9659a679531438030f52de3c18a7, type: 2}
   availableUnits:
   - {fileID: 11400000, guid: 8addc4ef28b814c4b906231133cb8416, type: 2}
+  - {fileID: 11400000, guid: 0e11857be8684384995a6f230847480c, type: 2}
 --- !u!114 &7598128600014111041
 MonoBehaviour:
   m_ObjectHideFlags: 0
